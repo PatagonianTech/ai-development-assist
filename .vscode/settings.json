@@ -1,0 +1,7 @@
+{
+  "editor.wordWrap": "on",
+  "files.readonlyInclude": {
+    // The original source is at /.claude/commands folder
+    ".cursor/commands/**": true,
+  }
+}
