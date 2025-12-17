@@ -9,5 +9,5 @@ If you know the value of "ai_context_clean", stop the execution and fail with "Y
 - ticket_identifier: `ticket_identifier=$1` The identifier of the ticket (e.g. `OV-12345`). Is required or stop execution and fail. Should exists in the `.changelog/` directory. If not, throw an error with message "Ticket $ticket_identifier not found in `.changelog/` directory" and stop execution
 
 ## Your task
-- Read the changelog file (`.changelog/<ticket_identifier>*.md`) and be ready to continue the ticket implementation.
+- Read the changelog file (`.changelog/<ticket_identifier>-*.md`) and be ready to continue the ticket implementation.
 - For each change made, the changelog document should be updated to track the work done.
