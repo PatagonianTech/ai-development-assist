@@ -10,7 +10,7 @@ If you know the value of "ai_context_clean", stop the execution and fail with "Y
 
 ## Your task
 Your task is to execute the ticket implementation design, follow the steps and instructions in the file, without adding any other information. Keep it simple and to the point
-1. Read and execute the task defined in the file: `.changelog/<ticket_identifier>*.md`
+1. Read and execute the task defined in the file: `.changelog/<ticket_identifier>-*.md`
 2. From the latest `release/*` branch, checkout to existing branch with `<ticket_identifier>` prefix or create a new branch named `<ticket_identifier>-<ticket_title>`
    1. If there are no branch with `release/` prefix, throw an error with message "No branch with `release/` prefix found" and stop execution
    2. If there are multiple branches with the same prefix, ask the user to select the correct branch
